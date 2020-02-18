@@ -1,0 +1,25 @@
+{
+  "name": "sitecoreprops",
+  "version": "1.0.0",
+  "description": "A Storybook decorator for normalizing Sitecore JSS props",
+  "main": "index.js",
+  "scripts": {
+    "test": "test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/DEGJS/SitecoreProps.git"
+  },
+  "keywords": [
+    "storybook",
+    "sitecore",
+    "jss",
+    "decorator"
+  ],
+  "author": "@aladage",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/DEGJS/SitecoreProps/issues"
+  },
+  "homepage": "https://github.com/DEGJS/SitecoreProps#readme"
+}
