@@ -21,7 +21,7 @@ import { Text } from '@sitecore-jss/sitecore-jss-react';
 
 const CustomComponent = ({fields}) => (
   <div className="custom-component">
-    <Text fields={field.heading} />
+    <Text fields={fields.heading} />
   </div>
 );
 
