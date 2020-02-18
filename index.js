@@ -20,9 +20,7 @@ const StoryContainer = ({ storyProps, children }) => {
       fields: createFieldsObject(storyProps.fields)
     });
   });
-  return <>
-    {childComponents}
-  </>;
+  return childComponents;
 };
 
 export const withSitecoreProps = makeDecorator({
