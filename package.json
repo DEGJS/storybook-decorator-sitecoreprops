@@ -1,5 +1,5 @@
 {
-  "name": "sitecoreprops",
+  "name": "addon-sitecoreprops",
   "version": "1.0.0",
   "description": "A Storybook decorator for normalizing Sitecore JSS props",
   "main": "index.js",
