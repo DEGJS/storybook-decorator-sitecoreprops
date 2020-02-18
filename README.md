@@ -1,4 +1,4 @@
-# @degjs/storybook-decorator-sitecoreprops
+# storybook-decorator-sitecoreprops
 SitecoreProps is a Storybook addon for normalizing nested Sitecore JSS field props.
 
 ## Why does this exist?
