@@ -1,8 +1,8 @@
 {
   "name": "@degjs/storybook-decorator-sitecoreprops",
-  "version": "1.0.3",
+  "version": "1.0.4",
   "description": "A Storybook decorator for normalizing Sitecore JSS props",
-  "main": "index.js",
+  "main": "dist/index.js",
   "repository": {
     "type": "git",
     "url": "git+https://github.com/DEGJS/SitecoreProps.git"
@@ -22,11 +22,20 @@
     "url": "https://github.com/DEGJS/SitecoreProps/issues"
   },
   "homepage": "https://github.com/DEGJS/SitecoreProps#readme",
+  "files": [
+    "src"
+  ],
+  "scripts": {
+    "compile": "rimraf dist/* && babel src -d dist",
+    "prepublish": "npm run compile"
+  },
   "devDependencies": {
+    "@babel/cli": "7.8.4",
     "@babel/core": "^7.7.7",
     "@babel/preset-env": "^7.7.7",
     "@babel/preset-react": "^7.8.3",
-    "eslint": "^6.8.0"
+    "eslint": "^6.8.0",
+    "rimraf": "^3.0.2"
   },
   "publishConfig": {
     "access": "public"
