@@ -19,7 +19,7 @@ In practice, that means passing props like this:
 ```
 import { Text } from '@sitecore-jss/sitecore-jss-react';
 
-const CustomComponent = ({fields}) => (
+const CustomComponent = ({field}) => (
   <div className="custom-component">
     <Text field={field.heading} />
   </div>
