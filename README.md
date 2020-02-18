@@ -25,7 +25,7 @@ const CustomComponent = ({fields}) => (
   </div>
 );
 
-export default DegComponent;
+export default CustomComponent;
 ```
 
 This structure can create pretty verbose sample data structures in Storybook stories. To combat this, the SitecoreProps Addon will automatically decorate stories to build out the nested value object whenever a fields property is passed to it. That means you can write sample data like this, without worrying about the extra layer of nesting:
