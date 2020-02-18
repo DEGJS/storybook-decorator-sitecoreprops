@@ -6,7 +6,7 @@ Sitecore JSS does a great job of putting front-end developers in the driver's se
 
 ```
 {
-  field: {
+  fields: {
     heading: {
       value: 'Value'
     }
@@ -19,9 +19,9 @@ In practice, that means passing props like this:
 ```
 import { Text } from '@sitecore-jss/sitecore-jss-react';
 
-const CustomComponent = ({field}) => (
+const CustomComponent = ({fields}) => (
   <div className="custom-component">
-    <Text field={field.heading} />
+    <Text fields={field.heading} />
   </div>
 );
 
@@ -32,7 +32,7 @@ This structure can create pretty verbose sample data structures in Storybook sto
 
 ```
 {
-  field: {
+  fields: {
     heading: 'Value'
   }
 }
