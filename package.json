@@ -16,7 +16,10 @@
     "jss",
     "decorator"
   ],
-  "author": "@aladage",
+  "author": {
+    "name": "Aaron Ladage",
+    "email": "aladage@degdigital.com"
+  },
   "license": "ISC",
   "bugs": {
     "url": "https://github.com/DEGJS/SitecoreProps/issues"
