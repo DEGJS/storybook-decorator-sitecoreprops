@@ -1,5 +1,5 @@
 {
-  "name": "storybook-decorator-sitecoreprops",
+  "name": "@degjs/storybook-decorator-sitecoreprops",
   "version": "1.0.1",
   "description": "A Storybook decorator for normalizing Sitecore JSS props",
   "main": "index.js",
