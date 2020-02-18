@@ -1,4 +1,4 @@
-# SitecoreProps
+# @degjs/storybook-decorator-sitecoreprops
 SitecoreProps is a Storybook addon for normalizing nested Sitecore JSS field props.
 
 ## Why does this exist?
@@ -42,7 +42,7 @@ This structure can create pretty verbose sample data structures in Storybook sto
 Install the following npm module in your project:
 
 ```
-npm i --save-dev @degjs/addon-sitecoreprops
+npm i --save-dev @degjs/storybook-decorator-sitecoreprops
 ```
 
 To install for all stories, import `withSitecoreProps` and add the decorator within `.storybook/preview.js`, like this:
