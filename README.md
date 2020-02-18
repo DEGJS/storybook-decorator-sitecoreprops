@@ -6,8 +6,8 @@ Sitecore JSS does a great job of putting front-end developers in the driver's se
 
 ```
 {
-  fields: {
-    fieldName: {
+  field: {
+    heading: {
       value: 'Value'
     }
   }
@@ -32,8 +32,8 @@ This structure can create pretty verbose sample data structures in Storybook sto
 
 ```
 {
-  fields: {
-    fieldName: 'Value'
+  field: {
+    heading: 'Value'
   }
 }
 ```
