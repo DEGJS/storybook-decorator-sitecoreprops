@@ -23,7 +23,7 @@
   },
   "homepage": "https://github.com/DEGJS/SitecoreProps#readme",
   "files": [
-    "src"
+    "dist"
   ],
   "scripts": {
     "compile": "rimraf dist/* && babel src -d dist",
