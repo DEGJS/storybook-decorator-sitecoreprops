@@ -49,7 +49,7 @@ To install for all stories, import `withSitecoreProps` and add the decorator wit
 
 ```
 import { addDecorator } from '@storybook/react';
-import { withSitecoreProps } from '@degjs/storybook-addon-sitecoreprops';
+import { withSitecoreProps } from '@degjs/storybook-decorator-sitecoreprops';
 
 addDecorator(withSitecoreProps);
 ```
